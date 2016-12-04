@@ -446,8 +446,8 @@ def train(txtFile,num_lstm_layers,seq_len,num_hidden_units,learning_rate):
       #  gradCheck(inputs,outputs,Wy,by,lstm_units,seq_len,vocab_size,hprev,cprev)
 
 
-txtFile1 = sys.argv[1]
-train(txtFile1,2,50,128,0.1)
+txtFile_input = sys.argv[1]
+train(txtFile_input,2,50,128,0.1)
 
 
 
